@@ -12,11 +12,14 @@ body {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    }
+}
 
 header {
     background-color: #e79d5b;
+    transition: all 0.2s;
 }
+
+
 
 .imagenIndex {
     width: 30%;
@@ -24,6 +27,15 @@ header {
 
 .botones {
     background-color: lightgray;
+    transition: all 0.2s;
+}
+
+.botones:hover {
+    background-color: grey;
+    height: 80px;
+    width: 180px;
+    text-decoration: none;
+
 }
 
 .tarjetas {
@@ -36,6 +48,7 @@ header {
     font-weight: bold;
     text-align: center;
 }
+
 /* PRODUCTOS */
 .textoCarrusel {
     font-size: 1rem;

@@ -14,6 +14,8 @@
     />
 
     <link rel="stylesheet" href="css/estilo.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="containder-fluid">
         <header>
@@ -42,10 +44,11 @@
                 </div>
               </nav>
         </header>
-    <!-- CHEkEAR BOTONES -->
+    
+
         <div class="px-4 py-5 my-5 text-center">
           <img class="d-block mx-auto mb-4 imagenIndex" src="img-6/pyp-2.jpg" alt="Manos cocinando">
-          <h1 class="display-5 fw-bold">CONOCE NUESTRAS DELICIAS CASERAS</h1>
+          <h1 class="display-5 fw-bold" data-aos="zoom-in">CONOCE NUESTRAS DELICIAS CASERAS</h1>
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Elaboración local 100% casera y de la mejor calidad. </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -56,9 +59,9 @@
         </div>
       
       <!-- CARDS -->
-      <div class="row">
-        <div class="col-xl-3 col-md-6 col-sm-12 py-2">
-          <div class="card">
+      <div class="row img-fluid">
+        <div class="col-xl-3 col-md-6 col-sm-12 py-2 img-fluid">
+          <div class="card media">
             <img src="./img-6/pyp-5.jpg" class="card-img-top tarjetas" alt="Fideos">
             <div class="card-body">
               <p class="card-text textoTarjetas">FIDEOS</p>
@@ -66,8 +69,8 @@
           </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 col-sm-12 py-2">
-          <div class="card">
+        <div class="col-xl-3 col-md-6 col-sm-12 py-2 img-fluid">
+          <div class="card media">
             <img src="./img-6/pyp-8.jpg" class="card-img-top tarjetas" alt="Canelones">
             <div class="card-body">
               <p class="card-text textoTarjetas">CANELONES</p>
@@ -75,8 +78,8 @@
           </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 col-sm-12 py-2">
-          <div class="card">
+        <div class="col-xl-3 col-md-6 col-sm-12 py-2 img-fluid">
+          <div class="card media">
             <img src="./img-6/pyp-9.jpg" class="card-img-top tarjetas" alt="Tartas">
             <div class="card-body">
               <p class="card-text textoTarjetas">TARTAS</p>
@@ -84,8 +87,8 @@
           </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 col-sm-12 py-2">
-          <div class="card">
+        <div class="col-xl-3 col-md-6 col-sm-12 py-2 img-fluid">
+          <div class="card media">
             <img src="./img-6/pyp-10.jpg" class="card-img-top tarjetas" alt="Sorrentinos">
             <div class="card-body">
               <p class="card-text textoTarjetas">SORRENTINOS</p>
@@ -93,6 +96,11 @@
           </div>
         </div>
       </div>
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- FOOTER -->
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
